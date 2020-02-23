@@ -18,6 +18,8 @@ body {
     margin: 0;
     padding: 0;
     height: 50rem;
+    display: flex;
+    flex-direction: column;
 }
 
 #title {
@@ -28,17 +30,37 @@ body {
 }
 
 #content {
+    width: 60%;
     display: flex;
-    border-style: solid;
     margin-top: 5%;
-    height: 50vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-bottom: 5vh;
+    flex-wrap: wrap;
+    align-items: stretch;
+    height: 75vh;
+}
+
+.menuImg {
+    max-height: 40%;
+    box-shadow: 5px 5px 5px 5px lightgray;
+    margin: 5px;
+    flex: 0 50%;
+}
+
+#menuLaNoteEnchantee {
+
+}
+
+#menuLeChicALaFrancaise {
+
 }
 
 footer {
     height: 5rem;
     width: 100%;
     background-color: #579C87;
-    position: fixed; 
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
@@ -54,18 +76,32 @@ footer {
     margin-left: 2%;
 }
 
-.wiggle:hover{
+.wiggle:hover {
     animation: wiggle 250ms infinite;
     animation-timing-function: linear;
 }
 
 @keyframes wiggle {
-    0% { transform: translate(2px, 0); }
-    25% { transform: translate(-2px, 0); }
-    50% { transform: translate(2px, 0); }
-    75% { transform: translate(-2px, 0); }
-    100% { transform: translate(2px, 0); }
-  }
+    0% {
+        transform: translate(2px, 0);
+    }
+
+    25% {
+        transform: translate(-2px, 0);
+    }
+
+    50% {
+        transform: translate(2px, 0);
+    }
+
+    75% {
+        transform: translate(-2px, 0);
+    }
+
+    100% {
+        transform: translate(2px, 0);
+    }
+}
 
 #contactezNousLink {
     float: right;
