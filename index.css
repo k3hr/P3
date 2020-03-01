@@ -1,6 +1,12 @@
 html {
     font-family: 'Roboto', sans-serif;
     height: 100%;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
 }
 
 header {
@@ -10,6 +16,7 @@ header {
     margin-top: 0%;
     margin-left: 0%;
     height: 10rem;
+    text-decoration: none;
 }
 
 body {
@@ -30,6 +37,7 @@ body {
 }
 
 #content {
+    align-self: center;
     width: 60%;
     display: flex;
     margin-top: 5%;
@@ -39,21 +47,20 @@ body {
     flex-wrap: wrap;
     align-items: stretch;
     height: 75vh;
+    display: inline-block; /* Adjust div size to content*/
+    justify-content: space-evenly;
 }
 
 .menuImg {
     max-height: 50vh;
     box-shadow: 5px 5px 5px 5px lightgray;
-    margin: 5px;
+    /* margin: 5%; */
     flex: 0 50%;
+    white-space: nowrap;
 }
 
-#menuLaNoteEnchantee {
-    /* max-height: 50vh; */
-}
-
-#menuLeChicALaFrancaise {
-
+div.content > a {
+    margin: 5%;
 }
 
 footer {
