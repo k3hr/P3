@@ -29,7 +29,7 @@ body {
     flex-direction: column;
 }
 
-body>h1{
+body>h1 {
     align-self: center;
     margin-top: 5%;
     font-weight: 900;
@@ -71,18 +71,28 @@ body>h1{
     flex-direction: column;
 }
 
-#contentLaNoteEnchante>table{
+#contentLaNoteEnchante>table {
     margin-left: 10%;
     margin-right: 10%;
     font-family: 'Caveat';
 }
-#contentLaNoteEnchante>h3{
+
+#contentLaNoteEnchante>h3 {
     font-family: 'Caveat';
     align-self: center;
 }
-#contentLaNoteEnchante>h2{
+
+#contentLaNoteEnchante>h2 {
     align-self: center;
     font-weight: 100;
+}
+
+.categorieH3 {
+    flex-direction: row;
+}
+
+hr {
+    flex-direction: row;
 }
 
 .price {
