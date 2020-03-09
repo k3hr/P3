@@ -51,8 +51,7 @@ body>h1 {
     margin-right: 5%;
     margin-bottom: 5vh;
     flex-wrap: wrap;
-    align-items: stretch;
-    /* height: 75vh; */
+    /* align-items: stretch; */
     justify-content: space-evenly;
 }
 
@@ -117,6 +116,38 @@ body>h1 {
     align-self: center;
     font-weight: 100;
 }
+
+#contentLeDéliceDesPapilles {
+    font-family: 'Devonshire';
+    font-size: 2rem;
+    font-weight: 100;
+    align-self: center;
+    background-color: #FEDDDA;
+    width: 60%;
+    display: flex;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    flex-direction: column;
+}
+
+#contentLeDéliceDesPapilles {
+    font-family: 'Devonshire';
+    font-size: 2rem;
+    font-weight: 100;
+    align-self: center;
+    background-color: #FEDDDA;
+    width: 60%;
+    display: flex;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    flex-direction: column;
+}
+
+
 
 .categorieH3 {
     flex-direction: row;
