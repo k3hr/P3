@@ -87,6 +87,37 @@ body>h1 {
     font-weight: 100;
 }
 
+#contentLeChicALaFrancaise {
+    font-family: 'Bellota', cursive;
+    font-size: 1.5rem;
+    font-weight: 100;
+    align-self: center;
+    background-color: #FFF5FE;
+    width: 60%;
+    display: flex;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    flex-direction: column;
+}
+
+#contentLeChicALaFrancaise>table {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Merriweather', serif;
+}
+
+#contentLeChicALaFrancaise>h3 {
+    font-family: 'Merriweather';
+    align-self: center;
+}
+
+#contentLeChicALaFrancaise>h2 {
+    align-self: center;
+    font-weight: 100;
+}
+
 .categorieH3 {
     flex-direction: row;
 }
