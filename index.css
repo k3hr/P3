@@ -84,6 +84,7 @@ body>h1 {
     padding-left: 5vh;
     padding-right: 5vh;
     border-radius: 10px;
+    margin-bottom: 5%;
 }
 
 .menuH3Div {
@@ -97,7 +98,7 @@ body>h1 {
 }
 
 #contentLaNoteEnchante {
-    font-family: 'Devonshire';
+    font-family: 'Caveat';
     font-size: 2rem;
     font-weight: 100;
     align-self: center;
@@ -114,15 +115,14 @@ body>h1 {
 #contentLaNoteEnchante>table {
     margin-left: 10%;
     margin-right: 10%;
-    font-family: 'Caveat';
 }
 
-#contentLaNoteEnchante>h3 {
-    font-family: 'Caveat';
+#contentLaNoteEnchante>.categorieH3 {
     align-self: center;
 }
 
 #contentLaNoteEnchante>h2 {
+    font-family: 'Devonshire';
     align-self: center;
     font-weight: 100;
 }
@@ -188,21 +188,31 @@ body>h1 {
     flex-direction: column;
 }
 
-
-
 .categorieH3 {
-    flex-direction: row;
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.categorieH3:hover,
+.categorieH3:focus {
+    background-size: 100% 2px;
 }
 
 hr {
     flex-direction: row;
+    background-color: #FEDDDA;
+    background-image: url("line1.png");
+    border: 0;
 }
 
 .price {
     font-weight: bold;
 }
-
-
 
 .ellipsisAnimation span {
     opacity: 0;
@@ -229,11 +239,9 @@ hr {
     0% {
         opacity: 0;
     }
-
     50% {
         opacity: 1;
     }
-
     100% {
         opacity: 0;
     }
@@ -243,11 +251,9 @@ hr {
     0% {
         opacity: 0;
     }
-
     50% {
         opacity: 1;
     }
-
     100% {
         opacity: 0;
     }
@@ -282,19 +288,15 @@ footer {
     0% {
         transform: translate(2px, 0);
     }
-
     25% {
         transform: translate(-2px, 0);
     }
-
     50% {
         transform: translate(2px, 0);
     }
-
     75% {
         transform: translate(-2px, 0);
     }
-
     100% {
         transform: translate(2px, 0);
     }
