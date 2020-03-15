@@ -218,6 +218,7 @@ body>h1 {
 }
 
 .categorieH3 {
+    width: 30%;
     text-align: center;
     text-decoration: none;
     background-image: linear-gradient(currentColor, currentColor);
