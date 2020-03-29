@@ -17,6 +17,7 @@ header {
     margin-left: 0%;
     height: 10rem;
     text-decoration: none;
+    width: 100%;
 }
 
 body {
@@ -27,6 +28,7 @@ body {
     height: 50rem;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 body>h1 {
@@ -44,7 +46,7 @@ body>h1 {
 
 #content {
     align-self: center;
-    width: 50%;
+    width: 40%;
     display: flex;
     margin-top: 5%;
     margin-left: 5%;
@@ -97,7 +99,7 @@ body>h1 {
     width: 33%;
 }
 
-#contentLaNoteEnchante {
+#contentLaNoteEnchantee {
     font-family: 'Caveat';
     font-size: 2rem;
     font-weight: 100;
@@ -112,20 +114,42 @@ body>h1 {
     flex-direction: column;
 }
 
-#contentLaNoteEnchante>table {
+#contentLaNoteEnchantee>table {
     margin-left: 10%;
     margin-right: 10%;
 }
 
-#contentLaNoteEnchante>.categorieH3 {
+#contentLaNoteEnchantee>.categorieH3 {
     align-self: center;
 }
 
-#contentLaNoteEnchante>h2 {
+#contentLaNoteEnchantee>h2,
+#contentLaNoteEnchantee>div>h2 {
     font-family: 'Devonshire';
-    align-self: center;
     font-weight: 100;
+    font-size: 4rem;
+    margin-top: 2%;
+    align-self: center;
 }
+
+#contentLaNoteEnchantee>img {
+    width: 3em;
+    align-self: center;
+    margin-top: 5%;
+}
+
+#bottomH2Div {
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+}
+
+#bottomH2Div>img {
+    width: 3em;
+    height: 3em;
+    margin-top: 2%;
+}
+
 
 #contentLaPaletteDuGout {
     font-family: 'Caveat';
@@ -270,9 +294,11 @@ hr {
     0% {
         opacity: 0;
     }
+
     50% {
         opacity: 1;
     }
+
     100% {
         opacity: 0;
     }
@@ -282,9 +308,11 @@ hr {
     0% {
         opacity: 0;
     }
+
     50% {
         opacity: 1;
     }
+
     100% {
         opacity: 0;
     }
@@ -298,10 +326,12 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #mentionsLegalesLink {
-    float: left;
     color: rgb(255, 247, 97);
     text-decoration: none;
     font-weight: bolder;
@@ -319,26 +349,79 @@ footer {
     0% {
         transform: translate(2px, 0);
     }
+
     25% {
         transform: translate(-2px, 0);
     }
+
     50% {
         transform: translate(2px, 0);
     }
+
     75% {
         transform: translate(-2px, 0);
     }
+
     100% {
         transform: translate(2px, 0);
     }
 }
 
 #contactezNousLink {
-    float: right;
     color: rgb(255, 247, 97);
     text-decoration: none;
     font-weight: bolder;
     font-size: 2rem;
     margin-top: 1rem;
     margin-right: 2%;
+}
+
+@media screen and (max-width: 768px) {
+    #contentLaNoteEnchantee {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 80%;
+        margin-bottom: 15%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #content {
+        width: 100%;
+    }
+
+    footer {
+        height: 4rem;
+    }
+
+    #mentionsLegalesLink {
+        font-size: 1rem;
+    }
+
+    #contactezNousLink {
+        font-size: 1rem;
+    }
+
+    #contentLaNoteEnchantee {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    #contentLaNoteEnchantee>h2,
+    #contentLaNoteEnchantee>div>h2 {
+        font-size: 2.5rem;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    #title {
+        font-size: 3rem;
+    }
+
+    #prochainementP {
+        font-size: 1.5rem;
+    }
 }
