@@ -181,8 +181,12 @@ body>h1 {
 }
 
 #contentLeChicALaFrancaise>h2 {
+    font-size: 3rem;
     align-self: center;
-    font-weight: 100;
+    font-weight: 900;
+    background: -webkit-linear-gradient(left, #ff8f00, #512da8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 #contentLaPaletteDuGout {
     font-family: 'Caveat';
@@ -394,13 +398,20 @@ footer {
     margin-top: 1rem;
     margin-right: 2%;
 }
-
+@media screen and (max-width: 1024px) {
+    #content {
+        width: 100%;
+    }
+}
 @media screen and (max-width: 768px) {
     #contentLaNoteEnchantee {
         margin-left: 0%;
         margin-right: 0%;
         width: 80%;
         margin-bottom: 15%;
+    }
+    #content {
+        width: 90%;
     }
 }
 
