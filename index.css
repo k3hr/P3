@@ -189,12 +189,14 @@ body>h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 #contentLeChicALaFrancaise>div>div>hr {
     background-size: 100%;
     background-position: center;
     border: 0;
     flex-direction: row;
 }
+
 #contentLeChicALaFrancaise>div>#topLeft {
     background: url("./leChicAlaFrancaiseTopLeft.png") no-repeat top center;
     background-size: 100%;
@@ -203,6 +205,7 @@ body>h1 {
     flex-direction: row;
 
 }
+
 #contentLeChicALaFrancaise>div>#topRight {
     background: url("./leChicAlaFrancaiseTopRight.png") no-repeat top center;
     background-size: 100%;
@@ -210,6 +213,7 @@ body>h1 {
     border: 0;
     flex-direction: row;
 }
+
 #contentLeChicALaFrancaise>div>#centerRight {
     background: url("./leChicAlaFrancaiseCenterRight.png") no-repeat top center;
     background-size: 100%;
@@ -217,6 +221,7 @@ body>h1 {
     border: 0;
     flex-direction: row;
 }
+
 #contentLeChicALaFrancaise>div>#centerLeft {
     background: url("./leChicAlaFrancaiseCenterLeft.png") no-repeat top center;
     background-size: 100%;
@@ -224,6 +229,7 @@ body>h1 {
     border: 0;
     flex-direction: row;
 }
+
 #contentLeChicALaFrancaise>div>#bottomLeft {
     background: url("./leChicAlaFrancaiseBottomLeft.png") no-repeat top center;
     background-size: 100%;
@@ -231,6 +237,7 @@ body>h1 {
     border: 0;
     flex-direction: row;
 }
+
 #contentLeChicALaFrancaise>div>#bottomRight {
     background: url("./leChicAlaFrancaiseBottomRight.png") no-repeat top center;
     background-size: 100%;
@@ -254,6 +261,12 @@ body>h1 {
     flex-direction: column;
 }
 
+#contentLaPaletteDuGout>h2 {
+    background: -webkit-linear-gradient(#429748, #BEFF7F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 #contentLaPaletteDuGout>table {
     margin-left: 10%;
     margin-right: 10%;
@@ -267,6 +280,25 @@ body>h1 {
     font-family: 'Kaushan Script';
     align-self: center;
     font-weight: 100;
+}
+
+#contentLaPaletteDuGout>div>hr {
+    flex-direction: row;
+    background-size: 100%;
+    background-position: center;
+    border: 0;
+}
+
+#contentLaPaletteDuGout>div>.hrLeft {
+    background: url("./laPaletteDuGoutLeft.png") no-repeat top center;
+    background-size: 100%;
+    background-position: center;
+}
+
+#contentLaPaletteDuGout>div>.hrRight {
+    background: url("./laPaletteDuGoutRight.png") no-repeat top center;
+    background-size: 100%;
+    background-position: center;
 }
 
 
@@ -312,16 +344,19 @@ body>h1 {
     background-position: center;
     border: 0;
 }
+
 #contentLeDeliceDesPapilles>div>.hrLeft {
     background: url("./leDeliceDesPapillesLeft.png") no-repeat top center;
     background-size: 100%;
     background-position: center;
 }
+
 #contentLeDeliceDesPapilles>div>.hrRight {
     background: url("./leDeliceDesPapillesRight.png") no-repeat top center;
     background-size: 100%;
     background-position: center;
 }
+
 .categorieH3 {
     width: 30%;
     text-align: center;
@@ -332,11 +367,6 @@ body>h1 {
     transition: background-size .3s;
     background-image: linear-gradient(#ff8f00, #512da8);
 }
-#contentLeChicALaFrancaise>.categorieH3 {
-    
-    
-}
-
 
 .categorieH3:hover,
 .categorieH3:focus {
