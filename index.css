@@ -139,6 +139,7 @@ body>h1 {
 }
 
 #bottomH2Div {
+    margin-top: 5%;
     flex-direction: row;
     justify-content: center;
     display: flex;
@@ -162,7 +163,7 @@ body>h1 {
     margin-top: 0%;
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     flex-direction: column;
     background: -webkit-linear-gradient(#ff8f00, #512da8);
     -webkit-background-clip: text;
@@ -188,6 +189,57 @@ body>h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+#contentLeChicALaFrancaise>div>div>hr {
+    background-size: 100%;
+    background-position: center;
+    border: 0;
+    flex-direction: row;
+}
+#contentLeChicALaFrancaise>div>#topLeft {
+    background: url("./leChicAlaFrancaiseTopLeft.png") no-repeat top center;
+    background-size: 100%;
+    background-position: center;
+    border: 0;
+    flex-direction: row;
+
+}
+#contentLeChicALaFrancaise>div>#topRight {
+    background: url("./leChicAlaFrancaiseTopRight.png") no-repeat top center;
+    background-size: 100%;
+    background-position: center;
+    border: 0;
+    flex-direction: row;
+}
+#contentLeChicALaFrancaise>div>#centerRight {
+    background: url("./leChicAlaFrancaiseCenterRight.png") no-repeat top center;
+    background-size: 100%;
+    background-position: center;
+    border: 0;
+    flex-direction: row;
+}
+#contentLeChicALaFrancaise>div>#centerLeft {
+    background: url("./leChicAlaFrancaiseCenterLeft.png") no-repeat top center;
+    background-size: 100%;
+    background-position: center;
+    border: 0;
+    flex-direction: row;
+}
+#contentLeChicALaFrancaise>div>#bottomLeft {
+    background: url("./leChicAlaFrancaiseBottomLeft.png") no-repeat top center;
+    background-size: 100%;
+    background-position: center;
+    border: 0;
+    flex-direction: row;
+}
+#contentLeChicALaFrancaise>div>#bottomRight {
+    background: url("./leChicAlaFrancaiseBottomRight.png") no-repeat top center;
+    background-size: 100%;
+    background-position: center;
+    border: 0;
+    flex-direction: row;
+}
+
+
 #contentLaPaletteDuGout {
     font-family: 'Caveat';
     font-size: 2rem;
@@ -249,17 +301,18 @@ body>h1 {
     font-family: 'Dancing Script', cursive;
     align-self: center;
     font-weight: 500;
-    background: -webkit-linear-gradient(#0049d7,#0091f5);
+    background: -webkit-linear-gradient(#0049d7, #0091f5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 #contentLeDeliceDesPapilles>div>hr {
     flex-direction: row;
     background: url("line1.png") no-repeat top center;
     background-size: 100%;
     background-position: center;
     border: 0;
-    background: -webkit-linear-gradient(#0049d7,#0091f5);
+    background: -webkit-linear-gradient(#0049d7, #0091f5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -398,11 +451,13 @@ footer {
     margin-top: 1rem;
     margin-right: 2%;
 }
+
 @media screen and (max-width: 1024px) {
     #content {
         width: 100%;
     }
 }
+
 @media screen and (max-width: 768px) {
     #contentLaNoteEnchantee {
         margin-left: 0%;
@@ -410,6 +465,7 @@ footer {
         width: 80%;
         margin-bottom: 15%;
     }
+
     #content {
         width: 90%;
     }
