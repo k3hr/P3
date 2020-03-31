@@ -308,15 +308,20 @@ body>h1 {
 
 #contentLeDeliceDesPapilles>div>hr {
     flex-direction: row;
-    background: url("line1.png") no-repeat top center;
     background-size: 100%;
     background-position: center;
     border: 0;
-    background: -webkit-linear-gradient(#0049d7, #0091f5);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
-
+#contentLeDeliceDesPapilles>div>.hrLeft {
+    background: url("./leDeliceDesPapillesLeft.png") no-repeat top center;
+    background-size: 100%;
+    background-position: center;
+}
+#contentLeDeliceDesPapilles>div>.hrRight {
+    background: url("./leDeliceDesPapillesRight.png") no-repeat top center;
+    background-size: 100%;
+    background-position: center;
+}
 .categorieH3 {
     width: 30%;
     text-align: center;
