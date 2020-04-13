@@ -506,6 +506,24 @@ footer {
         width: 80%;
         margin-bottom: 15%;
     }
+    #contentLeDeliceDesPapilles {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 80%;
+        margin-bottom: 15%;
+    }
+    #contentLeChicALaFrancaise {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 80%;
+        margin-bottom: 15%;
+    }
+    #contentLaPaletteDuGout {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 80%;
+        margin-bottom: 15%;
+    }
 
     #content {
         width: 90%;
@@ -536,11 +554,46 @@ footer {
         font-size: 1.5rem;
     }
 
+    #contentLeChicALaFrancaise {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%;
+        font-size: 1.2rem;
+        margin-bottom: 30%;
+    }
+
+    #contentLeDeliceDesPapilles {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%;
+        font-size: 1.5rem;
+        margin-bottom: 20%;
+    }
+
+    #contentLaPaletteDuGout {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%;
+        font-size: 1.5rem;
+        margin-bottom: 20%;
+    }
+
     #contentLaNoteEnchantee>h2,
     #contentLaNoteEnchantee>div>h2 {
         font-size: 2.5rem;
     }
-
+    #contentLeChicALaFrancaise>h2,
+    #contentLeChicALaFrancaise>div>h2 {
+        font-size: 2rem;
+    }
+    #contentLeDeliceDesPapilles>h2,
+    #contentLeDeliceDesPapilles>div>h2 {
+        font-size: 2.5rem;
+    }
+    #contentLaPaletteDuGout>h2,
+    #contentLaPaletteDuGout>div>h2 {
+        font-size: 2.5rem;
+    }
 }
 
 @media screen and (max-width: 320px) {
