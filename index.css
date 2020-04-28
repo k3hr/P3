@@ -56,25 +56,144 @@ body>h1 {
     justify-content: space-evenly;
 }
 
-.menuImg {
+#menuLaNoteEnchantee {
+    text-align: center;
+    height: 418px;
+    padding-top: 35%;
+    width: 292.547px;
+    font-family: Devonshire;
+    font-size: 150%;
+    background-color: #FEDDDA;
+    display: flex;
+    flex-direction: column;
     max-height: 50vh;
     flex: 0 50%;
     white-space: nowrap;
     transition: transform .5s ease;
 }
 
-.menuImgLink {
+#menuLaNoteEnchantee>h2 {
+    font-family: Caveat;
+}
+
+#menuLaNoteEnchanteeImg {
+    width: 48px;
+    height: 48px;
+    margin-left: 40%;
+}
+
+#menuLeChicALaFrancaise {
+    text-align: center;
+    padding-top: 50%;
+    height: 418px;
+    width: 292.547px;
+    font-family: Bellota;
+    font-size: 150%;
     max-height: 50vh;
+    flex: 0 50%;
+    white-space: nowrap;
+    transition: transform .5s ease;
+    background-size: 100%;
+    background-color: #FFF5FD;
+
+}
+
+#menuLeChicALaFrancaise>h2 {
+    font-family: Merriweather;
+    color: #DA9157;
+}
+
+#menuLeChicALaFrancaise>span {
+    background: linear-gradient(to right, #ff8f00, #512da8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#menuLeDeliceDesPapilles {
+    text-align: center;
+    padding-top: 50%;
+    height: 418px;
+    width: 292.547px;
+    font-family: Dancing script;
+    font-size: 170%;
+    max-height: 50vh;
+    flex: 0 50%;
+    white-space: nowrap;
+    transition: transform .5s ease;
+    background-color: #F9F9F9;
+}
+
+#menuLeDeliceDesPapilles>h2 {
+    font-family: Caveat;
+    background: linear-gradient(to right,#0049d7, #0091f5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#menuLeDeliceDesPapilles>span {
+    background: linear-gradient(to right,#0049d7, #0091f5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+#menuLaPaletteDuGout {
+    text-align: center;
+    padding-top: 50%;
+    height: 418px;
+    width: 292.547px;
+    font-family: Kaushan Script;
+    font-size: 150%;
+    max-height: 50vh;
+    flex: 0 50%;
+    white-space: nowrap;
+    transition: transform .5s ease;
+}
+
+#menuLaPaletteDuGout>h2 {
+    font-family: Caveat;
+    background: linear-gradient(to right, #429748, #BEFF7F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#menuLaPaletteDuGout>span {
+    background: linear-gradient(to right, #429748, #BEFF7F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menuLink {
+    max-height: 418px;;
     overflow: hidden;
     box-shadow: 0 0 5px 5px lightgray;
     margin-bottom: 5%;
 }
 
-.menuImg:hover {
+#menuLaNoteEnchantee:hover {
     transform: scale(1.3);
     opacity: 75%;
     transition: transform .5s ease;
 }
+
+#menuLeChicALaFrancaise:hover {
+    transform: scale(1.3);
+    opacity: 75%;
+    transition: transform .5s ease;
+}
+
+#menuLeDeliceDesPapilles:hover {
+    transform: scale(1.3);
+    opacity: 75%;
+    transition: transform .5s ease;
+}
+
+#menuLaPaletteDuGout:hover {
+    transform: scale(1.3);
+    opacity: 75%;
+    transition: transform .5s ease;
+}
+
 
 #prochainementP {
     align-self: center;
@@ -492,11 +611,17 @@ footer {
     margin-top: 1rem;
     margin-right: 2%;
 }
+@media screen and (max-width: 1440px) {
+    #content {
+        width: 60%;
+    }
 
+}
 @media screen and (max-width: 1024px) {
     #content {
-        width: 100%;
+        width: 80%;
     }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -506,18 +631,21 @@ footer {
         width: 80%;
         margin-bottom: 15%;
     }
+
     #contentLeDeliceDesPapilles {
         margin-left: 0%;
         margin-right: 0%;
         width: 80%;
         margin-bottom: 15%;
     }
+
     #contentLeChicALaFrancaise {
         margin-left: 0%;
         margin-right: 0%;
         width: 80%;
         margin-bottom: 15%;
     }
+
     #contentLaPaletteDuGout {
         margin-left: 0%;
         margin-right: 0%;
@@ -582,14 +710,17 @@ footer {
     #contentLaNoteEnchantee>div>h2 {
         font-size: 2.5rem;
     }
+
     #contentLeChicALaFrancaise>h2,
     #contentLeChicALaFrancaise>div>h2 {
         font-size: 2rem;
     }
+
     #contentLeDeliceDesPapilles>h2,
     #contentLeDeliceDesPapilles>div>h2 {
         font-size: 2.5rem;
     }
+
     #contentLaPaletteDuGout>h2,
     #contentLaPaletteDuGout>div>h2 {
         font-size: 2.5rem;
